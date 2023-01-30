@@ -16,7 +16,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('register', [ApiAuthController::class, 'register']);
 Route::post('login', [ApiAuthController::class, 'login']);
-Route::get('logout', [ApiAuthController::class, 'logout']);
 Route::get('sincos', [ApiSunController::class, 'sincos']);

@@ -7,37 +7,9 @@ use Illuminate\Http\Request;
 
 class ApiSunController extends Controller
 {
-    function __construct() {
+    /*function __construct() {
         $this->middleware('auth:api')->only(['store', 'update', 'destroy']);
-    }
-    
-    public function index() {
-        
-    }
-
-    public function create() {
-        
-    }
-
-    public function store(Request $request) {
-        
-    }
-
-    public function show($id) {
-        
-    }
-
-    public function edit($id) {
-        
-    }
-
-    public function update(Request $request, $id) {
-        
-    }
-
-    public function destroy($id) {
-        
-    }
+    }*/
     
     function sincos(Request $request) {
         date_default_timezone_set('Europe/Madrid');
@@ -69,4 +41,34 @@ class ApiSunController extends Controller
             
         }
     }
+    
+    public function index() {
+        
+    }
+
+    public function create() {
+        
+    }
+
+    public function store(Request $request) {
+        
+    }
+
+    public function show($id) {
+        
+    }
+
+    public function edit($id) {
+        
+    }
+
+    public function update(Request $request, $id) {
+        
+    }
+
+    public function destroy($id) {
+        
+    }
+    
+    
 }
